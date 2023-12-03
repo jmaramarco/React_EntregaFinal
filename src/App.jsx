@@ -8,7 +8,6 @@ import Button from "@mui/material/Button"
 import CachedIcon from '@mui/icons-material/Cached';
 import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
 
-
 const App = () => {
   const initialTasks = JSON.parse(localStorage.getItem('tasks')) || [];
   const [tasks, setTasks] = useState(initialTasks);
