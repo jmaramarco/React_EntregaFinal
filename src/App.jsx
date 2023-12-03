@@ -7,7 +7,7 @@ import Footer from './components/Footer.jsx'
 import Button from "@mui/material/Button"
 import CachedIcon from '@mui/icons-material/Cached';
 import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
-import "./styles/App.css"
+
 
 const App = () => {
   const initialTasks = JSON.parse(localStorage.getItem('tasks')) || [];

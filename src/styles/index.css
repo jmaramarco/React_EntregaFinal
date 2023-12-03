@@ -20,7 +20,7 @@ body {
 
 /* Modo Claro */
 .light {
-  background-color: #fff;
+  background-image: linear-gradient(to top right, #adafc2, #277d48)
   
   /* color: #000; */
 }
